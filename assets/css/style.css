@@ -229,8 +229,16 @@ body {
 
 	@media screen and (max-width: 980px)
 	{
+	 .site-nav__main {
+		 float: left;
+	 }
+	}
+
+	@media screen and (max-width: 980px)
+	{
 	 .site-nav__menu {
 		 margin-right: 100px;
+		 float: right;
 	 }
 	}
 
@@ -280,7 +288,7 @@ body {
 	 }
 	}
 
-	@media screen and (max-width: 980px)
+	@media screen and (max-width: 768px)
 	{
 	 #divider2 {
 		 width: 425px;
@@ -290,8 +298,8 @@ body {
 	@media screen and (max-width: 768px)
 	{
 	 .img-responsive {
-		 height: 300px;
-		 width: 300px;
+		 height: 250px;
+		 width: 250px;
 	 }
 	}
 
@@ -309,18 +317,76 @@ body {
 	 }
 	}
 
+	@media screen and (max-width: 640px)
+   {
+	   .app-root {
+		   width: 640px;
+	   }
+	}
+
+	@media screen and (max-width: 640px)
+   {
+	   .site-nav {
+		   width: 640px;
+	   }
+	}
+
+	@media screen and (max-width: 640px)
+	{
+		.site-nav__container {
+			width: 640px;
+		}
+	 }
+
+	 @media screen and (max-width: 640px)
+	{
+		.section-contained-narrow {
+			width: 640px;
+		}
+	 }
+ 
    @media screen and (max-width: 640px)
    {
 	h1 {
 		width: 660px;
+		margin-left: 0px;
 	}
    }
 
    @media screen and (max-width: 640px)
    {
+	.about-me {
+		margin-top: 50px;
+	}
+   }
+
+   @media screen and (max-width: 640px)
+	{
+	 .site-nav__menu {
+		 display: block;
+		 flex-direction: row;
+		 align-items: right;
+		 margin-top: 33px;
+		 padding-top: 20px;
+		 width: 640px;
+		 height: 80px;
+		 background-color: white;
+		 padding-left: 330px;
+	 }
+	}
+
+	@media screen and (max-width: 640px)
+	{
+		.about-me__container {
+			margin-top: 100px;
+		}
+	}
+
+   @media screen and (max-width: 640px)
+   {
 	.img-responsive {
-		height: 150px;
-		width: 150px;
+		height: 300px;
+		width: 300px;
 	}
 	}
 
@@ -328,5 +394,12 @@ body {
 	{
 	 #textbox {
 		 width: 300px;
+	 }
+	}
+
+	@media screen and (max-width: 640px)
+	{
+	 #copyright {
+		 padding-left: 280px;
 	 }
 	}
