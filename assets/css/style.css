@@ -128,8 +128,10 @@ body {
 		margin: 0 auto;
 		float: left;
 		align-self: center;
-		padding-top: 50px;
+		padding-top: 35px;
 		padding-left: 35px;
+		padding-right: 35px;
+		padding-bottom: 35px;
 	}
 
 	.img-family {
@@ -143,13 +145,15 @@ body {
 	}
 
 	#autobiography {
-		height: 200px;
-		width: 750px;
-		margin: 0 auto;
-		float: left;
+		/* height: 200px;
+		width: 750px; */
+		/* margin: 0 auto; */
+		/* float: left; */
 		align-self: center;
 		padding-top: 50px;
-		padding-left: 150px;
+		/* padding-left: 250px; */
+		margin-left: 32px;
+		margin-right: 32px;
 	}
 
 	#autobiography2 {
@@ -157,7 +161,8 @@ body {
 		width: 800px;
 		align-self: center;
 		padding-top: 50px;
-		padding-left: 35px;
+		margin-left: 32px;
+		margin-right: 32px;
 	}
 
 	#divider3 {
@@ -173,7 +178,7 @@ body {
 	}
 
 	#copyright {
-		padding-top: 50px;
+		padding-top: 25px;
 		padding-left: 700px;
 		color: #cccccc;
 		font-size: 12px;
@@ -220,4 +225,77 @@ body {
 		color: white;
 		background-color: #4aaaa5;
 		font-size: 13px;
+	}
+
+	@media screen and (max-width: 980px)
+	{
+	 .site-nav__menu {
+		 margin-right: 100px;
+	 }
+	}
+
+	@media screen and (max-width: 980px)
+	{
+	 .about-me {
+		 margin-left: 63px;
+	 }
+	}
+
+	@media screen and (max-width: 980px)
+	{
+	 .img-responsive {
+		 height: 200px;
+		 width: 200px;
+	 }
+	}
+
+	@media screen and (max-width: 980px)
+	{
+	 #copyright {
+		 padding-left: 500px;
+	 }
+	}
+
+	@media screen and (max-width: 980px)
+	{
+	 #textbox {
+		 width: 450px;
+	 }
+	}
+
+	@media screen and (max-width: 768px)
+	{
+	 .img-responsive {
+		 height: 100px;
+		 width: 100px;
+	 }
+	}
+
+	@media screen and (max-width: 768px)
+	{
+	 #textbox {
+		 width: 450px;
+	 }
+	}
+
+   @media screen and (max-width: 640px)
+   {
+	h1 {
+		width: 660px;
+	}
+   }
+
+   @media screen and (max-width: 640px)
+   {
+	.img-responsive {
+		height: 150px;
+		width: 150px;
+	}
+	}
+
+	@media screen and (max-width: 640px)
+	{
+	 #textbox {
+		 width: 300px;
+	 }
 	}
