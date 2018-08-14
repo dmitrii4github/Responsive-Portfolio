@@ -98,7 +98,7 @@ body {
 	.about-me {
 		background: white;
 		height: 500px;
-		width: 900px;
+		/*width: 900px;*/
 		margin-left:297px;
 		border: 1px #cccccc solid;
 	}
@@ -238,6 +238,14 @@ body {
 	{
 	 .about-me {
 		 margin-left: 63px;
+		 width: 800px;
+	 }
+	}
+
+	@media screen and (max-width: 980px)
+	{
+	 #divider2 {
+		 width: 725px;
 	 }
 	}
 
@@ -265,9 +273,32 @@ body {
 
 	@media screen and (max-width: 768px)
 	{
+	 .about-me {
+		 margin-left: 58px;
+		 margin-right: 58px;
+		 width: 500px;
+	 }
+	}
+
+	@media screen and (max-width: 980px)
+	{
+	 #divider2 {
+		 width: 425px;
+	 }
+	}
+
+	@media screen and (max-width: 768px)
+	{
 	 .img-responsive {
-		 height: 100px;
-		 width: 100px;
+		 height: 300px;
+		 width: 300px;
+	 }
+	}
+
+	@media screen and (max-width: 768px)
+	{
+	 #copyright {
+		 padding-left: 350px;
 	 }
 	}
 
