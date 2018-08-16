@@ -227,6 +227,58 @@ body {
 		font-size: 13px;
 	}
 
+	@media screen and (max-width: 1473px)
+	{
+	 .site-nav__main {
+		 float: left;
+	 }
+	}
+
+	@media screen and (max-width: 1473px)
+	{
+	 .site-nav__menu {
+		 margin-right: 100px;
+		 float: right;
+	 }
+	}
+
+	@media screen and (max-width: 1473px)
+	{
+	 .about-me {
+		 margin-left: 63px;
+		 width: 800px;
+	 }
+	}
+
+	@media screen and (max-width: 1473px)
+	{
+	 #divider2 {
+		 width: 725px;
+	 }
+	}
+
+	@media screen and (max-width: 1473px)
+	{
+	 .img-responsive {
+		 height: 200px;
+		 width: 200px;
+	 }
+	}
+
+	@media screen and (max-width: 1473px)
+	{
+	 #copyright {
+		 padding-left: 500px;
+	 }
+	}
+
+	@media screen and (max-width: 1473px)
+	{
+	 #textbox {
+		 width: 450px;
+	 }
+	}
+
 	@media screen and (max-width: 980px)
 	{
 	 .site-nav__main {
